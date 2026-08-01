@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class  EvenOdd
+public class EvenOdd
 {
-    public static void checkEvenOdd(num){
+    public static void checkEvenOdd( int num){
         if(num%2==0){
             System.out.println("num is : Even");
         }
@@ -13,7 +13,7 @@ public class  EvenOdd
      Scanner sc = new Scanner(System.in);
      System.out.println("enter the num");
         int num = sc.nextInt();
-        checkEvenOdd();
+        checkEvenOdd(num);
         sc.close();
 
     }
