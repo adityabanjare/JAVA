@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class linearsearch {
+public class LinearSearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the five arrays element:");
