@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class student1{
+ class student1{
     String name;
     int age;
     int roll ;
