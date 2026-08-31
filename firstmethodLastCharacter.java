@@ -6,7 +6,7 @@ public class firstmethodLastCharacter {
         System.out.println("Enter the string:");
         String name = sc.nextLine();
         int length = name.length();
-        char lastcharacter=name.charAt(name.length()-1);
+        char lastcharacter=name.charAt(length-1);
         System.out.println("The last letter is:"+lastcharacter);
         System.out.println(length);
         sc.close();
